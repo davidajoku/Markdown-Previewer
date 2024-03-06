@@ -1,0 +1,65 @@
+* {
+    font-family: Cascadia Code;
+    margin: 0;
+}
+
+body {
+    background-color: teal;
+    color: white;
+}
+
+textarea {
+    background-color: beige;
+    height:400px;
+    width: 800px;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    overflow: auto;
+    outline: none;
+    resize: none;
+} 
+
+
+textarea:focus {
+    box-shadow: 0 0px 5px 1px black;
+}
+
+#preview {
+    padding: 30px;
+    max-width: 800px;
+    margin: 1.25rem auto;
+    text-align: left;
+    background-color: beige;
+    color: black;
+    border-radius: 10px;
+    box-shadow:1px 1px 5px 1px black;
+}
+
+#preview code {
+    background-color: white;
+    padding: 5px 0px;
+    font-size: 15px;
+}
+
+#preview blockquote {
+    border-left: 3px solid #224b4b;
+    color: #224b4b;
+    padding-left: 5px;
+    margin-left: 25px;
+}
+
+#preview pre {
+    display: block;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#preview img {
+    display: block;
+    margin: 2rem auto;
+    -webkit-user-drag: none;
+    user-select: none;
+}
